@@ -123,8 +123,8 @@ export async function embedCreate(
 			if (!options.embed) {
 				options.embed = {
 					footer: {
-						text: '©️ Simply Develop. npm i simply-djs',
-						iconURL: 'https://i.imgur.com/u8VlLom.png'
+						text: 'e city',
+						iconURL: 'https://cdn.discordapp.com/attachments/904841395213320252/962618458351239208/161301911_105392938303741_1962389913886818213_n.jpg'
 					},
 					color: '#075FFF',
 					credit: true
@@ -158,15 +158,15 @@ export async function embedCreate(
 						'Select any ***option*** from the Select Menu in this message to create a custom embed for you.\n\nThis is a completed embed.'
 				)
 				.setImage(
-					'https://media.discordapp.net/attachments/885411032128978955/955066865347076226/unknown.png'
+					'https://cdn.discordapp.com/attachments/966004237656027166/988798574647205888/Screenshot_151.png'
 				)
-				.setColor(options.embed?.color || '#075FFF')
+				.setColor(options.embed?.color || '#0000FF')
 				.setFooter(
 					options.embed?.credit === false
 						? options.embed?.footer
 						: {
-								text: '©️ Simply Develop. npm i simply-djs',
-								iconURL: 'https://i.imgur.com/u8VlLom.png'
+								text: 'e city',
+								iconURL: 'https://cdn.discordapp.com/attachments/904841395213320252/962618458351239208/161301911_105392938303741_1962389913886818213_n.jpg'
 						  }
 				);
 
@@ -204,11 +204,11 @@ export async function embedCreate(
 					options.embed?.credit === false
 						? options.embed?.footer
 						: {
-								text: '©️ Simply Develop. npm i simply-djs',
-								iconURL: 'https://i.imgur.com/u8VlLom.png'
+								text: 'e city',
+								iconURL: 'https://cdn.discordapp.com/attachments/904841395213320252/962618458351239208/161301911_105392938303741_1962389913886818213_n.jpg'
 						  }
 				)
-				.setColor('#2F3136');
+				.setColor('#0000FF');
 
 			message.channel
 				.send({ content: '** **', embeds: [emb] })
